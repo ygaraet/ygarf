@@ -58,7 +58,7 @@ pip install -r requirements.txt
 
 ```env
 # Конфигурация Telegram бота
-BOT_TOKEN=8360365701:AAGMkBLrBWazEorrK555-afU2a6qd7WVIVA
+BOT_TOKEN=токен_бота
 
 # URL для парсинга статей
 HABR_URL=https://habr.com/ru/articles/
@@ -108,7 +108,7 @@ python app.py
 
 После запуска вы увидите:
 ```
-✅ Токен бота: 8360365701...
+✅ Токен бота: 123456789...
 INFO:root:Bot started: @your_bot_username (id=123456789)
 INFO:aiogram.dispatcher:Start polling
 ```
@@ -220,3 +220,5 @@ src/
 3. **Ошибки парсинга**
    - Проверьте файл `debug_habr.html` (создается при ошибках)
    - Обновите селекторы в `habr_parser.py`
+
+Колесникова Диана. юза нет, ник: YVN KXX
